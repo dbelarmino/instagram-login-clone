@@ -1,10 +1,12 @@
 import React from 'react';
 import Container from '~/styles';
 
+import Routes from '~/routes';
+
 const App = () => (
   <>
     <Container />
-    <h1>Hello World</h1>
+    <Routes />
   </>
 );
 export default App;

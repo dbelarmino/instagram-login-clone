@@ -1,8 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 const Container = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -15,11 +14,13 @@ html, body, #root {
 }
 
 body {
+  background-color: rgba(250,250,250);
+  color: #999;
   -webkit-font-smoothing: antialiased !important;
 }
 
 body, input, button {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 `;
